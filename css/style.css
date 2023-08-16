@@ -1,0 +1,42 @@
+main{
+    width: 100%;
+}
+header{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #FFC448;
+    width: 50%;
+    background-color: #262439;
+}
+.container-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    margin: 3px 0;
+}
+input{
+    padding: 8px;
+    width: 93%;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+button{
+    background-color: #FFC448;
+    padding: 5px;
+    border-radius: 7px;
+}
+.btn{
+    min-width: 24%;
+}
+.btn-ac{
+    width: 49%;
+}
